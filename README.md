@@ -38,3 +38,7 @@ Because the API keys and secrets will be stored outside of GitHub no security ke
 
 ## Storage of Credentials and Sensitive Information
 For Project 2 and 3, specifically, no credentials are to be stored on GitHub. All credentials and sensitive information pretaining to any of the Projects will be stored in an Azure Key Vault (Azure Key Vault is a cloud service for securely storing and accessing any information that must be tightly controlled). By keeping all sensitive information seperate from the GitHub repositories (which will all be public) the information can be kept secure and no third party will be able to gain access to any of the systems.
+
+# Project 1 Burndown Chart
+This burndown chart is for 8 August to 17 August.
+![burndow sprint 2](https://user-images.githubusercontent.com/83065167/184940761-4ed5cdab-19ef-4bb8-9863-0b9de59178a7.png)
