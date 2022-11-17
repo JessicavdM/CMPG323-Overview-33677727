@@ -1,4 +1,5 @@
 # CMPG323-Overview-33677727
+This repo contains information on 5 projects, 4 of witch have their own repositories. These projects all contribute to developing a Web app that records information on IoT devices. The Web app uses an API to store its data in a database hosted in Azure. A RPA is used to test the Web app's functionality and a Power BI report has been created to view summary information on the data collected by the Web app.
 ## Project Repositories
 ### Project 1
 In this Project the 'CMPG323-Overview-33677727' repository was created. This repository will be used to provide an overview of all the Projects and as a source reposiroty for the 'CMPG 323 Project Progress Tracking' Kanban project.  
@@ -148,6 +149,77 @@ Each sheet will be used to test an entity (Zone, Category or Device) in the Web 
 ![image](https://user-images.githubusercontent.com/83065167/198305001-9587d73a-4534-43e2-82f8-01abaa157bf0.png)
 <br/>
 An example of an acceptable excel file is in this repo under "Connected Office Test Data".
+<br/><br/><br/>
 
 
+
+
+# Project5 Information
+For this project a Power BI report was created on the data collected in the Web app from Project 4, which can be found at https://github.com/JessicavdM/CMPG323Project4-33677727 .<br/>
+The Connected Office - Device Monitoring report contains four pages, the Filter Page, High-Level Metrics page, Device Monitoring page and the Device Registration Page page.<br/>
+The report is connected to an Excel file in SharePoint via a Web Connection.
+
+## How To Use The Report
+### Filtering
+The report contains a Filter Page as well as a column on the left side of all the other pages that can be used to filter the data shown in the visualisations of the report. The filters work across all the pages and visuals of the report. The pages and visuals can be filtered by device Zone, device Category and Sub Category, the Date the device was installed and the Status of the device. Multiple selection of items in a filter can be made by holding the CTRL key and making your selection.
+<br/>
+
+Filter Page:
+<br/>
+![image](https://user-images.githubusercontent.com/83065167/200846518-1bc86bce-c1a4-44fa-a204-74bc57e55d3b.png)
+<br/>
+
+Filter column on all the other pages:
+<br/>
+![image](https://user-images.githubusercontent.com/83065167/200846719-1bb40e01-7fb6-45be-ace6-39db4ac2873b.png)
+<br/><br/>
+
+### Understanding the High-Level Metrics Page
+This page contains five visualisations. The first is a KPI visualisation comparing the number of devices installed this year to the number installed last year, by month. The large central number indicates the number of registered devices for the current month ("Blank" means no devices have been registered yet this month). The goal and precentage indicate how far away we are to this months goal.
+<br/>
+
+![image](https://user-images.githubusercontent.com/83065167/201024418-f7e6f650-3024-4e5a-9164-c311dc0f4f1b.png)
+<br/>
+
+The next visualisation is a line graph which shows how the number of registered devices has increased over time. The Date Installed filter can be adjusted to inspect a certain time period on this graph.
+<br/>
+
+![image](https://user-images.githubusercontent.com/83065167/201024987-5704c173-8573-4015-b081-989f8372fc19.png)
+<br/>
+
+The bottom three gauge graphs indicate how many of the Zones, Categories and Sub Categories out of the number registered on the Web app, actually have devices registered for them. For example, out of the 9 Zones created in the app only 8 Zones have devices registered.
+<br/>
+
+![image](https://user-images.githubusercontent.com/83065167/201029517-af8d1ba3-6971-4dc5-b674-dee70d0c2838.png)
+<br/><br/>
+
+### Understanding the Device Monitoring Page
+This page contains five visualisations. The first two bar charts keep track of the number of devices in each Category and each Sub Category. By selecting the bar of a Sub Category you will be able to see the portion of the Category that it takes up. Multiple selection of bars can be made by holding the CTRL key and selecting the bars. Any selection made will affect and filter the other visualisation in the page.
+<br/>
+
+![image](https://user-images.githubusercontent.com/83065167/200851298-08137aa2-8b4d-436c-b056-cf2bb4eda7e6.png)
+<br/>
+
+The last bar chart monitors the number of devices in each Zone. Again, the bars can be selected to filter the rest of the page. In the bottom right corner are two cards, the top card indicates the number of online devices and the bottom card indicated the number of offline devices.
+<br/>
+
+![image](https://user-images.githubusercontent.com/83065167/200852415-1fb353b6-edf9-4afb-8603-5aed84379c99.png)
+<br/><br/>
+
+
+### Understanding the Device Registration Page
+This page contains three visualisations. The first visualisation is a column chart showing the number of registered devices over a time span. This chart can be drilled down to see how many devices have been registered over years, quaters, months and days. To drill down on the chart simply click the drill down icon in the top right of the chart (circled in red in the image below) to activate the drill down capabilities of the chart, then select the columns you want to inspect further. To drill up click the drill up icon (circled in blue in the image below).
+<br/>
+
+![image](https://user-images.githubusercontent.com/83065167/201026676-06fc63fc-1203-4f88-9649-ad893ee0584c.png)
+<br/><br/>
+Chart drilled down to Quarter:
+![image](https://user-images.githubusercontent.com/83065167/201026324-99e28d2f-d049-4ea1-a191-11e74b67f3c7.png)
+<br/>
+
+The next visualisation, a line graph, shows how the number of Zones containing registered devies has increased over time. The Date Installed filter can be adjusted to inspect a certain time period on the graph. Next to this graph is a cloumn chart that shows the number of categories of devices. The column for each Category in the chart shows how many devices belong to each Sub Category withn that Category. These sections in the column can be selected to filter the rest of the page.
+<br/>
+
+![image](https://user-images.githubusercontent.com/83065167/201027978-bf0c2be6-d9ec-4e73-8547-f7a3bb1ed1b8.png)
+<br/>
 
